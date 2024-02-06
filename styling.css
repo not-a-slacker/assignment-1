@@ -1,0 +1,97 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+
+    background-image: url("bg3.webp");
+
+
+    height: 100%;
+
+
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li.navbar {
+    float: left;
+}
+
+li a.navbar {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.flex-container > div {
+    margin : 3%
+}
+
+.flex-container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.flex-container1 > div {
+    margin : 1%;
+}
+
+.box_inside_container_skills {
+    width: 70%;margin: 10px;width: 20%;padding: 10px;height:30%;border-style: inset;border-color: black;text-align: center;
+}
+
+.section_div {
+    width: 70%;margin: auto;width: 80%;padding: 10px;border-style: inset;border-color: black;
+}
+
+.box_inside_container_blogs {
+    width: 70%;margin: 20%;width: 45%;padding: 10px;height:30%;border-style: inset;border-color: black;text-align: center;
+}
+
+.box_inside_container_icon {
+    width: 70%;margin: 10px;width: 20%;padding: 10px;height:30%;;text-align: center;
+}
+
+#likeButton {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+#likeButton img {
+    width: 40px; 
+    height: 40px;
+}
